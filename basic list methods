@@ -1,0 +1,35 @@
+#list datatype
+#basiccs
+marks = [31,25,29,19,28,'harshit',3.66,True,False]
+print(marks)
+print(type(marks))
+#indexing in list
+print(marks[2])
+print(marks[4])
+print(marks[3])
+print(marks[:3])
+print(marks[::-1])
+print(marks[-4])#nagative index
+print(marks[9-4])
+print(marks[2:5])
+print(marks[1:9:2])#jumping indexing
+
+#if condition in list method.
+if 'harshit' in marks:
+  print("yes")
+  if "hit" in "harshit":
+    print("yes is in ")
+  else:
+    print("no is not")
+else:
+  print("no")
+  
+#list comprehension  
+#list comprehension:List comprehensions are used for creating new lists from other 
+#iterables like lists, tuples, dictionaries, sets, and even in arrays and strings.
+A=[i*i for i in range(10)]
+print(A)
+
+# if condition in list comprehension
+A2 = [i * i * i for i in range(10) if i % 2 == 0]
+print(A2)
