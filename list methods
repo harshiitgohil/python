@@ -1,0 +1,31 @@
+#list methods
+list1=[5,9,8,3,10,1,6,4,2]
+print(list1)
+#append is function to add elements in end of list.
+list1.append(7)
+print(list1)
+#sort is function to sort list in assending order.
+list1.sort()
+print(list1)
+#that is print list in reverse order.
+list1.sort(reverse=True)
+print(list1)
+list1.reverse()
+print(list1)
+#index is return a index of element.
+print(list1.index(10))
+# that is count how many times element repeat in list.
+print(list1.count(1))
+#copy function used to copy list to other list.
+list2=list1.copy()
+print(list2)
+#insert fuction used to insert record at specific index.
+list1.insert(2,6)
+list1.insert(6,8)
+print(list1)
+#extend used to concatenate the two lists.
+list1.extend(list2)
+print(list1)
+#other way to concatenate lists
+list3 = list1 + list2
+print(list3)
